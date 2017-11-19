@@ -88,6 +88,15 @@ brew cask install java8
 IDE
 brew cask install caskroom/cask/intellij-idea-ce
 
+# Machine Learning / Statistical
+
+brew cask install xquartz
+brew tap homebrew/science
+brew install --with-x11 homebrew/science/r 
+brew cask install --appdir=/Applications rstudio
+x11()
+
+
 # Other DB Tool
 
 MongoDB/NoSQL
